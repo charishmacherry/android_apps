@@ -65,6 +65,8 @@ public class MainActivity extends OptionsMenuActivity implements NavigationView.
                 Toast.makeText(this, "Address", Toast.LENGTH_LONG).show();
                 break;
             case R.id.notifications:
+                intent = new Intent(MainActivity.this, Login.class);
+                startActivity(intent);
                 break;
             case R.id.share:
                 Toast.makeText(this, "Share", Toast.LENGTH_LONG).show();

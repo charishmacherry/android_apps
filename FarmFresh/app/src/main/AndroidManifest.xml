@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Orders"
-            android:label="Your Orders"></activity>
+        <activity android:name=".SignUp"></activity>
+        <activity
+            android:name=".Orders"
+            android:label="Your Orders" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
